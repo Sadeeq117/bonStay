@@ -3,7 +3,7 @@ const usersService = require("../services/usersService");
 const hotelService = require("../services/hotelService");
 const bookingsService = require("../services/bookingsService");
 const router = express.Router();
-
+// We have all the rotuing part in appliction 
 router.post("/register",usersService.registerUser);
 router.post("/login", usersService.login);
 router.get("/logout", usersService.logout);
